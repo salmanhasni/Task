@@ -1,0 +1,12 @@
+<template name="messageItem">
+    <div class="message">
+        <div class="post-content">
+            <b>Message:</b> {{content}}
+            <br/>
+            <b>Author:</b> {{author}}
+            <br/>
+            <b>Submission: </b> {{submitted}}
+        </div>
+        {{#if ownMessage}}<a class="btn btn-danger delete" href="#">Delete</a>{{/if}}
+    </div>
+</template>
