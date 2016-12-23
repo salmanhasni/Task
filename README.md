@@ -4,7 +4,7 @@
 
 1- Install Meteor
 
-2- Git Clone Repository and cd into it
+2- Git Clone Repository and cd into it i.e `git clone https://github.com/salmanhasni/Task.git; cd Task`
 
 3- To run the application execute this command `meteor run`
 
